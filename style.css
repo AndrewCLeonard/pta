@@ -5,4 +5,7 @@ Description: Building from scratch
 Version: 1.0
 */
 
-/* Reset */
+* {
+	background-color: green;
+	border: 4px solid red;
+}
