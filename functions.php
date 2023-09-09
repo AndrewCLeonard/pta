@@ -1,6 +1,6 @@
 <?php
 // An experiment to try and understand why styles are not loading
-wp_enqueue_style('test-style', get_template_directory_uri() . '/style.css', array(), '1.0', 'all');
+// wp_enqueue_style('test-style', get_template_directory_uri() . '/style.css', array(), '1.0', 'all');
 
 
 if (!function_exists('myfirsttheme_setup')) :
@@ -24,7 +24,7 @@ add_action('after_setup_theme', 'myfirsttheme_setup');
 function myfirsttheme_enqueue_styles()
 {
   // Enqueue Pico.css
-  // wp_enqueue_style('pico-css', get_template_directory_uri() . '/css/pico.css');
+  wp_enqueue_style('pico', get_template_directory_uri() . '/css/pico.css');
 
   // Enqueue your main style
   wp_enqueue_style('style', get_stylesheet_uri());

@@ -9,13 +9,49 @@
 			"width": false
 		},
 		"color": {
+			"palette": [
+				{
+					"color": "#ffffff",
+					"name": "White",
+					"slug": "white"
+				},
+				{
+					"color": "#000000",
+					"name": "Black",
+					"slug": "black"
+				},
+				{
+					"color": "#4aa1de",
+					"name": "Celestial Blue",
+					"slug": "celestial-blue"
+				},
+				{
+					"color": "#07137B",
+					"name": "Phthalo Blue",
+					"slug": "phthalo-blue"
+				},
+				{
+					"color": "#FADF4B",
+					"name": "Naples Yellow",
+					"slug": "naples-yellow"
+				},
+				{
+					"color": "#5a331c",
+					"name": "Seal Brown",
+					"slug": "seal-brown"
+				},
+				{
+					"color": "#92bc2b",
+					"name": "Apple Green",
+					"slug": "apple-green"
+				}
+			],
 			"custom": true,
 			"customDuotone": true,
 			"customGradient": true,
 			"duotone": [],
 			"gradients": [],
 			"link": false,
-			"palette": [],
 			"text": true,
 			"background": true,
 			"defaultGradients": true,
@@ -42,18 +78,90 @@
 			"letterSpacing": true,
 			"textDecoration": true,
 			"textTransform": true,
-			"fontSizes": [],
-			"fontFamilies": []
+			"fontFamilies": [
+				{
+					"fontFace": [
+						{
+							"fontFamily": "Roboto",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": 400,
+							"src": ["file:./assets/fonts/roboto-v30-latin/roboto-v30-latin-regular.woff2"]
+						},
+						{
+							"fontFamily": "Roboto",
+							"fontStretch": "normal",
+							"fontStyle": "italic",
+							"fontWeight": 400,
+							"src": ["file:./assets/fonts/roboto-v30-latin/roboto-v30-latin-italic.woff2"]
+						},
+						{
+							"fontFamily": "Roboto",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": 700,
+							"src": ["file:./assets/fonts/roboto-v30-latin/roboto-v30-latin-700.woff2"]
+						},
+						{
+							"fontFamily": "Roboto",
+							"fontStretch": "normal",
+							"fontStyle": "italic",
+							"fontWeight": 700,
+							"src": ["file:./assets/fonts/roboto-v30-latin/roboto-v30-latin-700italic.woff2"]
+						}
+					],
+					"fontFamily": "Roboto",
+					"name": "Roboto",
+					"slug": "roboto"
+				}
+			],
+			"fontSizes": [
+				{
+					"fluid": {
+						"min": "0.875rem",
+						"max": "1rem"
+					},
+					"size": "1rem",
+					"slug": "small"
+				},
+				{
+					"fluid": {
+						"min": "1rem",
+						"max": "1.125rem"
+					},
+					"size": "1.125rem",
+					"slug": "medium"
+				},
+				{
+					"fluid": {
+						"min": "1.75rem",
+						"max": "1.875rem"
+					},
+					"size": "1.75rem",
+					"slug": "large"
+				},
+				{
+					"fluid": false,
+					"size": "2.25rem",
+					"slug": "x-large"
+				},
+				{
+					"fluid": {
+						"min": "4rem",
+						"max": "10rem"
+					},
+					"size": "10rem",
+					"slug": "xx-large"
+				}
+			]
 		},
-		"blocks": {
-			"core/paragraph": {
-				"color": {},
-				"custom": {},
-				"layout": {},
-				"spacing": {},
-				"typography": {}
-			},
-			"core/heading": {}
-		}
+		"useRootPaddingAwareAlignments": true
+	},
+	"styles": {
+		"color": {
+			"background": "mauve"
+		},
+		"spacing": {},
+		"typography": {}
 	}
 }
