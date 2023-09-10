@@ -31,8 +31,8 @@ Add `"$schema": "https://schemas.wp.org/trunk/theme.json"` to top of `theme.json
 https://css-tricks.com/managing-css-styles-in-a-wordpress-block-theme/
 
 #### Fonts
-https://fullsiteediting.com/lessons/theme-json-typography-options/ 
 
+https://fullsiteediting.com/lessons/theme-json-typography-options/
 
 #### Boilerplate `Theme.json`
 
@@ -122,6 +122,16 @@ Methods for "enqueueing" style sheets are frustrating. The documentation is uncl
 
 https://coolors.co/ffffff-000000-07137b-fadf4b-4aa1de-5a331c-92bc2b
 
+| `color` | `name`         | `slug`       |
+| ------- | -------------- | ------------ |
+| #ffffff | White          | base         |
+| #000000 | Black          | contrast     |
+| #07137b | Phthalo blue   | primary      |
+| #fadf4b | Naples yellow  | secondary    |
+| #4aa1de | Celestial Blue | tertiary     |
+| #5a331c | Seal brown     | accent-brown |
+| #92bc2b | Apple green    | accent-green |
+
 ```
 - Tailwind
 
@@ -159,6 +169,8 @@ ffffff,000000,07137b,fadf4b,4aa1de,5a331c,92bc2b
   <color name="Apple green" hex="92bc2b" r="146" g="188" b="43" />
 </palette>
 ```
+
+## [PTA Brand Guidelines](https://www.pta.org/home/run-your-pta/PTA-Branding-and-Web-Guidelines)
 
 ## Other Questions
 
